@@ -201,6 +201,39 @@ nav {
   cursor: pointer;
 }
 
+.quote {
+  margin-top: 32px;
+  padding: 48px 24px 48px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+.quote p {
+  background-color: inherit;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.quote .speaker {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 6px 0px;
+}
+
+.quote .speaker-title {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 6px 0px;
+}
+
 /* Your Opinion Matters styles */
 
 .opinion {
