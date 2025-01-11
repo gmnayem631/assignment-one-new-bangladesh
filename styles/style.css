@@ -386,6 +386,27 @@ nav {
   background-color: rgba(168, 210, 132, 0.885);
 }
 
+.donate-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.donate-input-container input[type="text"] {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  margin: 29px 0px;
+  padding: 18px 37px 18px 37px;
+  width: 100%;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+}
+
 /* Newsletter styles */
 
 .newsletter {
@@ -406,7 +427,6 @@ nav {
   line-height: 44px;
   text-align: center;
   padding: 15px;
-  /* margin: 16px 0px; */
   background: rgb(198, 228, 214);
 }
 
