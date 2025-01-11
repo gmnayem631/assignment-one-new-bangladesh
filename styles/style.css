@@ -1,0 +1,273 @@
+/* Importing Fira Sans font */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: Fira Sans;
+}
+
+/* Shared Styles */
+
+.btn-primary {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 16px 31px 16px 31px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-digital {
+  background: rgb(84, 144, 245);
+}
+
+.btn-green {
+  background: rgb(9, 161, 92);
+}
+.btn-modern {
+  background: rgb(255, 194, 57);
+}
+
+.digital-bg {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+.green-bg {
+  background-color: rgb(198, 228, 214);
+}
+
+.modern-bg {
+  background: rgb(247, 235, 207);
+}
+
+/* Header Styles */
+.header {
+  margin-bottom: 73px;
+}
+
+/* Navigation Bar Styles */
+
+nav {
+  margin: 20px 146px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.btn-sign {
+  padding: 14px 27px 14px 27px;
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 7px;
+}
+
+/* Banner Styles */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 22px;
+  background: rgb(198, 228, 214);
+  padding: 73px 91px 73px 91px;
+  margin: 20px 146px 0px 146px;
+}
+
+.banner-content {
+  max-width: 622px;
+  background: rgb(198, 228, 214);
+}
+
+.banner-content .banner-title,
+.banner-content .banner-description {
+  background: rgb(198, 228, 214);
+}
+
+.banner-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 14px 0px;
+}
+
+.banner-description {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  margin: 15px 0px;
+}
+
+.banner-hero {
+  margin-left: 58px;
+  background: rgb(198, 228, 214);
+}
+
+/* The Vision of Future styles */
+.vision {
+  margin: 73px 146px 0px 146px;
+  width: 1170px;
+}
+.vision-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+
+.vision-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  padding: 29px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin: 32px 22px 0px 22px;
+}
+
+.card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 12px 0px;
+  background: inherit;
+}
+
+.card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 12px 0px;
+  background: inherit;
+}
+
+.card img {
+  background: inherit;
+}
+
+.btn-card {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17px;
+  border-radius: 8px;
+  padding: 10px 18px 10px 18px;
+  margin: 22px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Your Opinion Matters styles */
+
+.opinion {
+  margin: 73px 146px 73px 146px;
+}
+
+.opinion-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 22px 0px;
+}
+
+.opinion-table {
+  width: 1170px;
+  height: 374px;
+  margin: 22px 0px;
+  padding: 29px;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+}
+.main-table {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.main-table th {
+  background: rgb(198, 228, 214);
+  padding: 22px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: rgb(14, 14, 14);
+  box-sizing: border-box;
+}
+
+.main-table td {
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: rgb(14, 14, 14);
+}
+
+.main-table th,
+.main-table td {
+  border: 2px solid rgba(193, 181, 181, 0.668);
+  padding: 8px;
+  text-align: left;
+}
+
+.main-table select {
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgba(9, 161, 92, 0.15);
+  margin: 0px 30px;
+  padding: 9px 13px 9px 13px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: rgb(14, 14, 14);
+}
