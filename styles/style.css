@@ -15,11 +15,9 @@
   background: rgb(0, 106, 80);
   padding: 16px 31px 16px 31px;
   color: rgb(255, 255, 255);
-  font-family: Fira Sans;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
-  letter-spacing: 0%;
   text-align: left;
   border: none;
   cursor: pointer;
@@ -67,11 +65,9 @@ nav {
 
 .nav-title {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -111,18 +107,15 @@ nav {
 
 .banner-title {
   color: rgba(14, 14, 14, 0.5);
-  font-family: Fira Sans;
   font-size: 22px;
   font-weight: 500;
   line-height: 27px;
-  letter-spacing: 0%;
   text-align: left;
   margin: 14px 0px;
 }
 
 .banner-description {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 50px;
   font-weight: 700;
   line-height: 55px;
@@ -142,7 +135,6 @@ nav {
 }
 .vision-title {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 37px;
   font-weight: 700;
   line-height: 44px;
@@ -151,7 +143,6 @@ nav {
 
 .vision-description {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -170,7 +161,6 @@ nav {
 
 .card-title {
   color: rgba(14, 14, 14, 0.8);
-  font-family: Fira Sans;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
@@ -180,7 +170,6 @@ nav {
 
 .card-description {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -194,7 +183,6 @@ nav {
 
 .btn-card {
   color: rgb(255, 255, 255);
-  font-family: Fira Sans;
   font-size: 15px;
   font-weight: 600;
   line-height: 17px;
@@ -334,7 +322,6 @@ nav {
   justify-content: space-between;
   margin-top: 32px;
   border-radius: 24px;
-
   background: rgb(255, 255, 255);
   padding: 44px;
   margin: 22px 0px;
@@ -346,6 +333,10 @@ nav {
 .news-time,
 .news-description {
   background: inherit;
+}
+
+.news-time {
+  color: rgba(14, 14, 14, 0.7);
 }
 
 .left-satellite .satellite-img {
